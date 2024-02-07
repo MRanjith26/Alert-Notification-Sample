@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.notification-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 7px;
+  width: 550px;
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .notification-item {
+    width: 300px;
+  }
+}
+.close-icon {
+  padding: 0px;
+  margin-left: 20px;
+}

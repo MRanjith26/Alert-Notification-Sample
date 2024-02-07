@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-title {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #0f172a;
+}
+.notification-container {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 550;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.status-icon {
+  padding: 0px;
+}
+
+.close-icon {
+  padding: 0px;
+  margin-left: 20px;
+}
